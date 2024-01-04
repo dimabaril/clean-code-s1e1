@@ -29,7 +29,7 @@
 }
 .input-text,
 .task__label {
-  flex-grow: 1
+  flex-grow: 1;
 }
 .new-task__wrapper {
   display: flex;
@@ -121,7 +121,7 @@ input,button{
 
 /* Completed */
 .completed-tasks .task__label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
@@ -129,7 +129,7 @@ input,button{
 .incomplete-tasks,
 .completed-tasks {
   .input-text {
-    display: none
+    display: none;
   }
 }
 
