@@ -62,6 +62,9 @@ button {
 }
 /* Heading */
 .heading-main {
+  display: none;
+}
+.heading-section {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -87,7 +90,7 @@ button {
 }
 
 /* New Task */
-.new-task .heading-main {
+.new-task .heading-section {
   display: block;
   margin: 0 0 20px;
 }
