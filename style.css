@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Papyrus";
+  src: url("./papyrus.ttf");
+}
+
 /* Basic Style */
 .body-wrapper {
   background-color: #f8f8f8;
@@ -14,7 +19,7 @@
   width: 100%;
 }
 .header__more-inf {
-  font-family: fantasy, cursive;
+  font-family: "Papyrus", cursive;
 }
 
 @media (max-width: 768px) {
